@@ -1,3 +1,7 @@
+*:focus{
+  outline:none;
+}
+
 .container {
     background-color: #c00025;
     width: 100%;
