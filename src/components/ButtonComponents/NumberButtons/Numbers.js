@@ -17,7 +17,9 @@ export const Numbers = (props) => {
     <div className = "numbers">
       {numberLabels.map((numbers, index) => (
         <NumberButton setValue = {props.setValue} key={index} numbers = {numbers} />
-      ))}
+      ))
+      };
+      
     </div>
   );
 };

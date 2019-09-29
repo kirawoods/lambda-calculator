@@ -26,17 +26,22 @@ function App() {
       <div className="App">
         <div className="leftSideDiv">
           <Specials setValue={setValue} />
-          <Numbers setValue={setValue}/>
+          <Numbers setValue={setValue}
+          />
         </div>
         <div className="RightSideDiv">
         <Operators setValue={setValue}/>
         </div>
-         
+
+       
         
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
     </div>
+    
   );
 }
+
+
 
 export default App;
