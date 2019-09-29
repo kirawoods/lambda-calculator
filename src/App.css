@@ -31,23 +31,39 @@
   
   .numbers {
       display: flex;
-      width: 300px;
+      width: 360px;
       flex-wrap: wrap;
   }
 
   .individualButton {
+    font-size: 1.8rem;
+    color: white;
     width: 100px;
+    height: 100px;
     background-color: blue;
+    border-color: black;
+    border-radius: 50%;
+    margin: 10px;
   }
 
   .eachSpecialButton {
+    font-size: 1.8rem;
+    color: white;
     width: 100px;
-    background-color: darkblue
-  }
-
-  
+    height: 100px;
+    background-color: darkblue;
+    border-color: black;
+    border-radius: 50%;
+    margin: 10px;
+  }  
 
   .eachNumberButton {
-      width: 100px;
-      background-color: lightblue;
+    font-size: 1.8rem;
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    border-color: black;
+    border-radius: 50%;
+    margin: 10px;
   }
